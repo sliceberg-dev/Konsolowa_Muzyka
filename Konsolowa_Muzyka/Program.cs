@@ -41,6 +41,14 @@ class Program
             this.year = year;
             this.downloadNumber = downloadNumber;
         }
+
+        /*
+        nazwa metody: Wyswietl
+        opis metody: Wyświetla w konsoli informacje o artyście, albumie, liczbie utworów, roku wydania i liczbie pobrań.
+        parametry: brak
+        zwracany typ i opis: void - metoda nie zwraca żadnej wartości
+        autor: Jakub Kryszewski
+        */
         public void Wyswietl()
         {
             Console.WriteLine(artist);
